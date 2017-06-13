@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="todobody">
+        
+        <input type="text" name="whattodo" id="whattodo" placeholder="Enter Task Here" onfocus="focusstyle('whattodo');" onblur="blurstyle('whattodo');"><br/>
+        <button onclick="additem()"><img src="icons/icon.png" alt="Add" /></button>
+        <img src="icons/delall-icon3.png" alt="DelAll" id="delall" onclick="delAllItems();">
+
+        <div id="todolist">
+            <ol id="ol">
+                <!--<li id="li">Home <img src="icons/del-icon.png" alt="del"></li>
+                <li id="li">About Us <img src="icons/del-icon.png" alt="del"></li>-->
+            </ol>
+        </div>
+        <!--<img src="icons/delall-icon2.png" alt="DelAll" id="delall">-->
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

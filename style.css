@@ -1,0 +1,93 @@
+body
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#todobody
+{
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+input[type='text']
+{
+    margin-top: 50px;
+    margin-left: 29%;
+    background-color: transparent;
+    border: 2px solid black;
+    border-bottom-color: wheat;
+    color: ghostwhite;
+    width: 37%;
+    font-size: 20px;
+    font-style: italic;
+}
+::-webkit-input-placeholder
+{
+    color: ghostwhite;
+}
+button
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 44%;
+    margin-right: 44%;
+    border: 2px solid wheat;
+    border-radius: 50px;
+    /*background-color: wheat;*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EDB753), to(#A26029));
+    background-image: -webkit-linear-gradient(top, #EDB753, #A26029);
+    background-image: -moz-linear-gradient(top, #EDB753, #A26029);
+    background-image: linear-gradient(to bottom, #EDB753, #A26029);
+}
+button:active
+{
+    border: inset;
+}
+#todolist
+{
+    color: white;
+
+}
+#todolist li
+{
+    color: white;
+    margin: 20px;
+    width: 40%;
+    height: 24px;
+    /*background-color: lightgoldenrodyellow;*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EDB753), to(#A26029));
+    background-image: -webkit-linear-gradient(top, #EDB753, #A26029);
+    background-image: -moz-linear-gradient(top, #EDB753, #A26029);
+    background-image: linear-gradient(to bottom, #EDB753, #A26029);
+    margin-left: 22%;
+    margin-right: 22%;
+    border-radius: 10px;
+    line-height: 24px;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+}
+#todolist li img
+{
+    float: right;
+    margin-top: 4px;
+}
+#todolist li img:hover
+{
+    background-color: saddlebrown;
+}
+#delall
+{
+    margin-left: 80%;
+    margin-top: -15%;
+}
+#delall:active
+{
+    border: inset;
+}
